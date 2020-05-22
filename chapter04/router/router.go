@@ -1,0 +1,20 @@
+package router
+
+import (
+	"gin-vue-samples/chapter04/controller"
+
+	"github.com/gin-gonic/gin"
+)
+
+func Route(engine *gin.Engine) {
+	engine.GET("/", controller.IndexGetAction)
+	engine.POST("/", controller.IndexPostAction)
+	engine.PUT("/", controller.IndexPutAction)
+	engine.DELETE("/", controller.IndexDeleteAction)
+
+	engine.GET("/map", controller.MapGetAction)
+	engine.GET("/var", controller.VarGetAction)
+	engine.GET("/condition", controller.ConditionGetAction)
+	engine.GET("/range", controller.RangeGetAction)
+	engine.GET("/main", controller.TemplateGetAction)
+}

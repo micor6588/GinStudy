@@ -1,0 +1,11 @@
+2020-05-22T10:17:09.963+0800	error	service/database.go:20	connection database error, dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+2020-05-22T10:17:53.800+0800	info	chapter10-01/main.go:22	2020/05/22 - 10:17:53 | 404 |             ::1 | GET     | /
+
+2020-05-22T10:17:53.865+0800	info	chapter10-01/main.go:22	2020/05/22 - 10:17:53 | 404 |             ::1 | GET     | /favicon.ico
+
+2020-05-22T10:18:23.837+0800	info	chapter10-01/main.go:22	2020/05/22 - 10:18:23 | 200 |             ::1 | GET     | /json
+
+2020-05-22T10:18:33.314+0800	info	chapter10-01/main.go:22	2020/05/22 - 10:18:33 | 200 |             ::1 | GET     | /xml
+
+2020-05-22T10:18:47.103+0800	info	chapter10-01/main.go:22	2020/05/22 - 10:18:46 | 200 |             ::1 | GET     | /image
+
